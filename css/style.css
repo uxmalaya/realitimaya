@@ -1,0 +1,237 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.wrapper .navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2.3125rem 2.75rem 0 2.75rem;
+}
+
+.wrapper .navbar .logo p {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5625rem;
+}
+
+.wrapper .navbar .menu {
+  color: #ffffff;
+}
+
+.wrapper .navbar .menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .navbar .menu ul li {
+  float: left;
+}
+
+.wrapper .navbar .menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-size: 1.25rem;
+  margin-left: 4.1875rem;
+  position: relative;
+}
+
+.wrapper .navbar .menu ul li a:hover {
+  position: relative;
+}
+
+.wrapper .navbar .menu ul li a:hover::after {
+  position: absolute;
+  content: '';
+  width: 1.25rem;
+  height: 0.1875rem;
+  left: 0.125rem;
+  top: 2.125rem;
+  background: #F6119B;
+}
+
+.wrapper .mid {
+  position: absolute;
+  top: 6.1875rem;
+  width: 100%;
+}
+
+.wrapper .mid .bg1 {
+  position: absolute;
+  width: 78.6875rem;
+  height: 48rem;
+  left: 41.3125rem;
+  top: 0rem;
+  background: #183AEF;
+}
+
+.wrapper .mid .bg2 {
+  position: absolute;
+  width: 78.6875rem;
+  height: 39.8125rem;
+  left: 41.3125rem;
+  top: 8.1875rem;
+  background: #120DB2;
+}
+
+.wrapper .mid .banner {
+  position: absolute;
+  width: 84.1875rem;
+  height: 49.1875rem;
+  left: 24.9375rem;
+  top: 8.1875rem;
+}
+
+.wrapper .mid .banner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper .mid .text {
+  position: absolute;
+  left: 10.5rem;
+  top: 22.875rem;
+}
+
+.wrapper .mid .text .title {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 4.5rem;
+  color: #ffffff;
+}
+
+.wrapper .mid .text .description {
+  font-family: 'Poppins';
+  font-size: 4.5rem;
+  color: #ffffff;
+  font-size: 1.25rem;
+  width: 41.6875rem;
+  line-height: 1.875rem;
+  margin-top: 1.25rem;
+}
+
+.wrapper .mid .text .btn {
+  margin-top: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 15.5625rem;
+  height: 4.75rem;
+  color: #ffffff;
+  background-color: #F6119B;
+  cursor: pointer;
+}
+
+.wrapper .mid .text .btn p {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.5625rem;
+}
+
+.wrapper .mid .text .btn span {
+  margin-left: 0.9375rem;
+  font-size: 1.5625rem;
+}
+
+.wrapper .mid .text .btn:hover {
+  background-color: #a10763;
+}
+
+.wrapper .bottom {
+  position: absolute;
+  bottom: 3.8125rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 2.75rem 0 2.75rem;
+}
+
+.wrapper .bottom .social {
+  position: relative;
+}
+
+.wrapper .bottom .social .inner {
+  position: absolute;
+  bottom: 0;
+}
+
+.wrapper .bottom .social .inner a {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.125rem;
+  margin-bottom: 0.625rem;
+}
+
+.wrapper .bottom .social .inner a:hover {
+  color: #a10763;
+}
+
+.wrapper .bottom .more {
+  position: relative;
+}
+
+.wrapper .bottom .more .inner {
+  position: absolute;
+  bottom: 0;
+}
+
+.wrapper .bottom .more .inner:hover {
+  opacity: .5;
+}
+
+.wrapper .bottom .more .inner a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.wrapper .bottom .more .inner a img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 6.4375rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.wrapper .bottom .more .inner a p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  position: absolute;
+  bottom: 6.4375rem;
+  left: -0.25rem;
+}
+/*# sourceMappingURL=style.css.map */
